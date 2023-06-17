@@ -26,37 +26,17 @@ const corsOptions = {
   },
   optionsSuccessStatus: 200,
 };
+
 app.use(cors(corsOptions));
-
 app.use(express.urlencoded({ extended: false }));
-
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "public")));
+app.use("/", express.static(path.join(__dirname, "public")));
+app.use("/subdir", express.static(path.join(__dirname, "public")));
 
-app.get("^/$|/index(.html)?", (req, res) => {
-  //res.sendFile(path.join(__dirname, "./views/index.html", { root: __dirname }));
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
-
-app.get("/new-page.html", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "new-page.html"));
-});
-
-app.get("/old-page.html", (req, res) => {
-  res.redirect(301, "/new-page.html");
-});
-//handlers
-app.get(
-  "/hello(.html)?",
-  (req, res, next) => {
-    //console.log("Hello World");
-    next();
-  },
-  (req, res) => {
-    res.send("Hello World!");
-  }
-);
+app.use("/", require("./routes/root"));
+app.use("/home", require("./routes/home"));
+app.use("/employees", require("./routes/api/employees")); //JSON data from api
 
 app.all("*", (req, res) => {
   res.status(404);
