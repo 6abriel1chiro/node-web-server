@@ -97,3 +97,6 @@
 20230618	23:20:13	be53c894-f70d-447c-bec8-d40be7cb5a59	PUT	undefined	/employees/2
 20230618	23:21:17	e5e0be86-2a8a-48a8-88fc-40d3b47ef84a	PUT	undefined	/employees
 20230618	23:21:37	7d8a4bb1-b58b-49d5-bdf7-9a57cf025f19	DELETE	undefined	/employees
+20230619	02:39:37	e576b8b9-f87b-4b64-97f1-b370b092329f	POST	undefined	/register
+20230619	02:40:44	226c872c-ad84-4364-bebe-d3a55b41c742	POST	undefined	/register
+20230619	03:54:54	96344411-1627-4a14-ac21-77d7034c543c	POST	undefined	/auth
