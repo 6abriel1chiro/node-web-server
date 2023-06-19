@@ -67,3 +67,33 @@
 20230617	13:05:57	70e40f5a-8513-4ca5-939e-fde23978259e	PUT	undefined	/employees
 20230617	13:06:47	ae6debed-af16-4926-b242-4fc0d17390da	DELETE	undefined	/employees
 20230617	13:07:05	93a4d71a-4a61-4792-a2f8-1ad6e26a6886	GET	undefined	/employees/1
+20230618	21:32:36	e9dc19c6-5342-4e01-b5f9-cb2b7db9f248	GET	undefined	/
+20230618	21:32:37	1a7545e5-6902-420c-9d68-a1671aba8d68	GET	undefined	/css/style.css
+20230618	21:32:37	e5f7738c-4b46-4ba8-b513-78ecb8861f79	GET	undefined	/favicon.ico
+20230618	21:32:39	c2003e0f-0e2e-4d23-abce-7812764f8a85	GET	undefined	/
+20230618	21:32:39	9bc984fc-8fdd-47a4-9e9b-b26efd4e94fd	GET	undefined	/css/style.css
+20230618	23:04:31	da5450e2-421b-4d57-aefe-b23ebde85054	GET	undefined	/employees
+20230618	23:04:40	3ca0d0c8-ab8b-4397-bee2-52d5f3ce3aef	GET	undefined	/employees/1
+20230618	23:04:51	0b3a00bc-3b1b-4c68-9936-2042c20f3fde	POST	undefined	/employees
+20230618	23:05:46	98dc67af-d825-4f03-9d8c-128abefe9fb7	POST	undefined	/employees
+20230618	23:05:55	004c63e8-1a43-4f43-9077-aa1727de4d7d	POST	undefined	/employees
+20230618	23:06:58	aff917cb-431f-4ada-aa07-c0f73e31f75b	POST	undefined	/employees
+20230618	23:07:14	8b590e8a-21ce-4f10-9b9a-01524caad052	DELETE	undefined	/employees/3
+20230618	23:07:34	66a95c5d-571c-4cbe-b631-32a0428b1ef5	GET	undefined	/employees/3
+20230618	23:07:37	b164e2f3-bcb4-4655-9723-0f4cd5df5751	DELETE	undefined	/employees/3
+20230618	23:08:16	233f70cb-f03f-4b65-aa0e-dcfc230b6f93	GET	undefined	/employees/2
+20230618	23:08:16	55131547-689a-4953-8bc1-40405b179971	SyntaxError: Unexpected token } in JSON at position 6
+20230618	23:10:40	1a986cef-2580-4a8f-8000-7f0a4a71bede	GET	undefined	/employees
+20230618	23:10:48	b7f84cac-a624-4de2-9060-d4e62e25ba18	GET	undefined	/employees/2
+20230618	23:10:48	80cda2e1-a74e-4609-bd35-9d8c0fa5cfe7	SyntaxError: Unexpected token } in JSON at position 6
+20230618	23:11:12	32a23797-469a-4fab-9088-173fa19bc7f2	GET	undefined	/employees
+20230618	23:11:17	67b1c6de-79c3-48a1-b97c-e38f8cb65d29	GET	undefined	/employees/2
+20230618	23:11:24	5f38a566-8d8a-439f-b1a9-a070ca61c05d	POST	undefined	/employees
+20230618	23:11:29	ea780bb8-d783-4e06-83c1-5a369d14d5f8	GET	undefined	/employees
+20230618	23:11:38	c5891105-ec20-49ff-b5d0-5d001624fb3a	DELETE	undefined	/employees/2
+20230618	23:11:48	978204f0-f158-433f-907e-5a9ed2628a8e	GET	undefined	/employees/2
+20230618	23:19:31	17444bd8-ce46-4b28-bc5f-512a8c792362	GET	undefined	/employees
+20230618	23:20:09	a1e7f80e-f41a-4188-ba7e-fd148d7f7928	PUT	undefined	/employees/3
+20230618	23:20:13	be53c894-f70d-447c-bec8-d40be7cb5a59	PUT	undefined	/employees/2
+20230618	23:21:17	e5e0be86-2a8a-48a8-88fc-40d3b47ef84a	PUT	undefined	/employees
+20230618	23:21:37	7d8a4bb1-b58b-49d5-bdf7-9a57cf025f19	DELETE	undefined	/employees
